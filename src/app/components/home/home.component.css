@@ -1,0 +1,86 @@
+.contenedora{
+    background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    margin:80px 20px;
+    padding: 5px;
+    font-size: 2.5em;
+    position: relative;
+    bottom: 20px;
+}
+
+div .description{
+    margin:20px 20px;
+    border: 1px solid #131111;
+    width: 50%;
+    font-size: 1em;
+    margin: 3px auto;
+    position: relative;
+    bottom: 50px;
+    padding: 3rem;
+}
+
+.div-img-perfil{
+    margin: 30px auto;
+    border: 1px solid #0f0f0f;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+    background-image: url(https://i.ibb.co/LdLdSfZ/yo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+
+.nav-redes{
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1em;
+}
+
+img, svg {
+  
+    width: 25px;
+    margin: 10px auto;
+
+}
+
+
+hr {
+    height: 10px;
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgb(181, 178, 178);
+    border-color: rgb(10, 10, 10);
+    margin-top: 2px;
+  }
+
+
+.nav-paginas> a{
+    padding: 10px;
+    border: 1px solid rgb(255, 0 , 0);
+    border-radius: 80px 10px;
+    text-decoration: none;
+    background-color: rgb(17, 15, 15);
+    opacity: 0.9;
+    color: rgb(181, 178, 178);
+
+}
