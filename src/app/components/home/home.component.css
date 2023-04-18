@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.nav-redes>a>i{
+    font-size:2rem;
+    color: #e6d5d5;
+}
+
+
+
 .titulo{
     margin:80px 20px;
     padding: 5px;
@@ -54,12 +61,19 @@ div .description{
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 1em;
+
 }
 
-img, svg {
-  
-    width: 25px;
-    margin: 10px auto;
+.background-color{
+    padding: 20px;
+    padding-top: 5px;
+    border: 1px solid rgb(255, 0 , 0);
+    border-radius: 5px  5px 85px 85px;
+    background-color: rgb(17, 15, 15);
+}
+
+.nav-paginas{
+    display: flex;
 
 }
 
@@ -75,12 +89,23 @@ hr {
 
 
 .nav-paginas> a{
-    padding: 10px;
+    padding: 20px;
     border: 1px solid rgb(255, 0 , 0);
-    border-radius: 80px 10px;
+    border-radius: 5px  5px 85px 85px;
     text-decoration: none;
     background-color: rgb(17, 15, 15);
-    opacity: 0.9;
+    /* opacity: 0.9; */
     color: rgb(181, 178, 178);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 
+}
+
+
+
+.flechaDirec{
+    position: relative;
+    left: 20px;
+    top: 2px;
 }
