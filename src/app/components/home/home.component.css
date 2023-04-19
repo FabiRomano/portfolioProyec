@@ -1,6 +1,7 @@
 .contenedora {
-  /* background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg); */
-  background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+  /* background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg
+); */
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -13,6 +14,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+
+/* https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg */
 
 .nav-redes > a > i {
   color: rgba(241, 28, 28, 0.77);
@@ -46,6 +50,7 @@
   -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
 
 }
+
 
 div .description {
   margin: 20px 20px;
@@ -100,13 +105,10 @@ div .description {
   background-position: 50%;
   border-radius: 50%;
   background-size: 100% auto;
-
   opacity: 0.8;
-
   box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-
   transform-origin: 50% 0%;
   animation: hover-in-circles 10s ease-in-out infinite;
 }
@@ -117,8 +119,31 @@ div .description {
   box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
   -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150%;
+  background-position: 50%;
 
 }
+
+.welcome{
+  position: relative;
+  top: 2rem;
+  bottom: 0.5rem;
+  font-size: 2.2rem;
+  left: 9px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+color:transparent;
+}
+
+.welcome:hover{
+  color: white;
+  font-weight: bold;
+  transition: 3s;
+  transform: scale(1.5, 1.5);
+
+ }
 
 .nav-redes {
   margin: 50px auto;
@@ -135,17 +160,9 @@ div .description {
   padding-top: 5px;
   border: 1px solid #f50d0d;
   border-radius: 50%;
-  /* background-color: rgb(17, 15, 15);
-  opacity: 0.9; */
-  /* background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-size: 150%; */
-
   box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
   -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-
   transform-origin: 50% 0%;
   animation: hover-in-circles 10s ease-in-out infinite;
  
@@ -153,13 +170,12 @@ div .description {
 
 .background-color:hover{
   transition: 3s;
-   background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+   background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 150%;
   border: 1px solid #0f0f0f;
-
-  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+ box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
 }
@@ -172,15 +188,13 @@ div .description {
   animation-timing-function: linear;
   border: 1px solid #0f0f0f;
   border-radius: 50%;
-  /* margin-left: 50px; */
-  /* position: absolute; */
   height: 40vw;
   width: 40vw;
   max-width: 500px;
   max-height: 500px;
   animation-name: nav-paginas;
   animation-duration: 60s;
-  background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
   background-repeat: no-repeat;
   background-position: 47%;
   box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
@@ -191,7 +205,7 @@ div .description {
 hr {
   height: 10px;
   width: 60%;
-  margin: 50px auto;
+  margin: 100px auto;
   background-color: rgb(181, 178, 178);
   border-color: rgb(10, 10, 10);
   border-radius: 100px 0px 100px 0px;
@@ -210,23 +224,19 @@ hr {
   border: 1px solid #0f0f0f;
   border-radius: 50%;
   text-decoration: none;
-  /* background-color: rgb(17, 15, 15); */
-  /* opacity: 1; */
   color: black;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column-reverse;
   font-size: 1.1rem;
   font-weight: bold;
-  /* background-color: red; */
   width: 25%;
   height: 25%;
   position: absolute;
   border: 2px solid;
   transform-origin: 50% 0%;
   animation: nav-paginas-a 50s ease-in-out infinite;
-  background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg);
-  /* background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg); */
+  background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 180%;
@@ -240,11 +250,7 @@ hr {
   transform: scale(1);
   color: #ffffff;
   font-size: 1.3rem;
-  /* box-shadow: -1px -4px 30px 17px rgba(217,204,206,1);
--webkit-box-shadow: -1px -4px 30px 17px rgba(217,204,206,1);
--moz-box-shadow: -1px -4px 30px 17px rgba(217,204,206,1); */
-
-box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
 -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
 -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
 }
@@ -284,7 +290,7 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     
   }
   25% {
- 
+    color: #0f0f0f;
     box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
@@ -296,7 +302,8 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     background-color: rgb(17, 15, 15);
-  opacity: 0.9;
+  /* opacity: 0.9; */
+  color: rgba(241, 28, 28, 0.77);
   }
 
   75% {
@@ -319,9 +326,8 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   }
 
   25% {
-    background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg);
-
-    /* background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg); */
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg
+);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200%;
@@ -332,8 +338,7 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   }
 
   50% {
-    background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg);
-    /* background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg); */
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
@@ -341,7 +346,7 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   }
 
   75% {
-    background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200%;
@@ -361,7 +366,7 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     transform: rotate(0deg);
   }
   25% {
-    background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200%;
@@ -369,8 +374,8 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     color: orange;
   }
   50% {
-    background-image: url(https://st2.depositphotos.com/1162190/7458/i/950/depositphotos_74582235-stock-photo-planets-in-space.jpg);
-    /* background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg); */
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg
+);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 190%;
@@ -378,7 +383,7 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
     color: orangered;
   }
   75% {
-    background-image: url(https://st.depositphotos.com/1162190/1951/i/950/depositphotos_19511187-stock-photo-dramatic-sunset.jpg);
+    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200%;
@@ -390,8 +395,3 @@ box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   }
 }
 
-.flechaDirec {
-  position: relative;
-  left: 20px;
-  top: 2px;
-}
