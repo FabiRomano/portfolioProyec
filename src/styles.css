@@ -24,6 +24,14 @@
     flex-direction: column;
     align-items: center;
   }
+
+.sub-contenedora{
+  display: flex;
+  
+  flex-direction: column-reverse;
+}
+
+
    
   
   .nav-redes > a > i {
@@ -46,39 +54,43 @@
     padding: 5px;
     font-size: 2.5em;
     position: relative;
-    bottom: 20px;
+    /* bottom: 20px; */
     padding: 20px;
     border-radius: 20px;
     transform-origin: 50% 0%;
-    animation: hover-in-circles 10s ease-in-out infinite;
+    animation: hover-in-circles 30s ease-in-out infinite;
     box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
     color: rgba(250, 244, 244, 0.911);
+    border-radius: 65px 1px 65px 1px;
+
   
   }
   
   
   div .description {
-    margin: 20px 20px;
+    margin: 20px 30px;
     border: 1px solid #131111;
     color: rgba(250, 244, 244, 0.911);
-    width: 50%;
+    /* width: 50%; */
     font-size: 1.3em;
     font-weight: bold;
     text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-    margin: 3px auto;
+    /* margin: 3px auto; */
     position: relative;
     bottom: 50px;
     padding: 3rem;
     transform-origin: 50% 0%;
-    animation: hover-in-circles 10s ease-in-out infinite;
-    border-radius: 35px;
+    animation: hover-in-circles 30s ease-in-out infinite;
+    border-radius: 65px 1px 65px 1px;
     box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   }
+
+
   
   .circulo-img {
     margin: 30px auto;
@@ -91,16 +103,17 @@
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     transform-origin: 50% 0%;
     animation: hover-in-circles 10s ease-in-out infinite;
+    animation: welcome 40s ease-in-out infinite;
+    position: relative;
+    top: 40px;
+    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
+    );
+    background-repeat: no-repeat;
+    background-position: 50%;
   
   }
   
-  .circulo-img:hover{
-    transition: 2s;
-    transform: scale(1.2, 1.2);
-    box-shadow: -1px 3px 22px 10px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px 3px 22px 10px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px 3px 22px 10px rgba(20, 9, 9, 0.77);
-  }
+ 
   
   .div-img-perfil {
     margin: 50px auto;
@@ -124,46 +137,11 @@
     transform-origin: 50% 0%;
     animation: hover-in-circles 10s ease-in-out infinite;
     animation: welcome 40s ease-in-out infinite;
-  
-  
-    
+    position: relative;
+    top: 15px;    
   }
 
-  
-  /* .div-img-perfil:hover{
-    transition: 3s;
-    transform: scale(1);
-    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 150%;
-    background-position: 50%;
-  
-  
-  } */
-  
-  /* .welcome{
-    position: relative;
-    top: 2rem;
-    bottom: 0.5rem;
-    font-size: 2.2rem;
-    left: 9px;
-    color:transparent;
-  
-  }
-  
-  .welcome:hover{
-    color: white;
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-    font-weight: bold;
-    transition: 1s;
-    transform: scale(1.8, 1.8);
-   
-  
-   } */
+
   
   .nav-redes {
     margin: 50px auto;
@@ -206,20 +184,21 @@
     display: flex;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /* border: 1px solid #0f0f0f; */
     border-radius: 50%;
-    height: 40vw;
-    width: 40vw;
+    height: 35vw;
+    width: 35vw;
     max-width: 500px;
     max-height: 500px;
-    animation-name: nav-paginas;
-    animation-duration: 60s;
     background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-position: 47%;
     box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+    animation: nav-paginas 30s ease-in-out infinite;
+    position: relative;
+margin-top: 3px;
+margin-bottom: 8rem;
   }
   
   hr {
@@ -242,10 +221,9 @@
   .nav-paginas > a {
   
     padding: 20px;
-    border: 1px solid #0f0f0f;
-    border-radius: 50%;
+    border-radius: 65px 1px 65px 1px;
     text-decoration: none;
-    color: black;
+    color: rgba(250, 244, 244, 0.911);
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column-reverse;
@@ -256,8 +234,9 @@
     position: absolute;
     border: 2px solid;
     transform-origin: 50% 0%;
-    animation: nav-paginas-a 50s ease-in-out infinite;
-    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    animation: nav-paginas-a 30s ease-in-out infinite;
+    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
+    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 180%;
@@ -271,10 +250,6 @@
     transform: scale(1);
     color: #ffffff;
     font-size: 1.3rem;
-   /* box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-  -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-  -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77); */
-  
   box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
   -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
   -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
@@ -456,12 +431,7 @@
     }
   
     25% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg
-  );
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 200%;
-      background-position: 200%;
+      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
       box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
       -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
       -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
@@ -469,18 +439,11 @@
   
     50% {
       background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 150%;
-      background-position: 50%;
+    
     }
   
     75% {
-      background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 200%;
-      background-position: 200%;
+      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
       box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
       -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
       -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
@@ -495,31 +458,27 @@
     0% {
       transform: rotate(0deg);
     }
+
     25% {
-      background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 200%;
-      background-position: 200%;
-      color: orangered;
+      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+      color: rgb(218, 86, 25);
     }
+
     50% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg
-  );
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 190%;
-      background-position: 100%;
-      color: red;
+        background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+      color: rgba(124, 110, 110, 0.911);
+        
+  box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
+  -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
+  -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
+
     }
+
     75% {
-      background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 200%;
-      background-position: 200%;
-      color: #0f0f0f;
+      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+      color: #f50d0d;
     }
+
     100% {
       transform: rotate(-360deg);
     }
