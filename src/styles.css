@@ -111,7 +111,8 @@
     padding: 20px;
     position: relative;
     bottom: 30px;
-    background-image: url(https://i.ibb.co/LdLdSfZ/yo.jpg);
+    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
+    );
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -122,12 +123,14 @@
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     transform-origin: 50% 0%;
     animation: hover-in-circles 10s ease-in-out infinite;
+    animation: welcome 40s ease-in-out infinite;
   
   
     
   }
+
   
-  .div-img-perfil:hover{
+  /* .div-img-perfil:hover{
     transition: 3s;
     transform: scale(1);
     box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
@@ -140,9 +143,9 @@
     background-position: 50%;
   
   
-  }
+  } */
   
-  .welcome{
+  /* .welcome{
     position: relative;
     top: 2rem;
     bottom: 0.5rem;
@@ -160,7 +163,7 @@
     transform: scale(1.8, 1.8);
    
   
-   }
+   } */
   
   .nav-redes {
     margin: 50px auto;
@@ -308,12 +311,72 @@
     top: 7%;
   }
   
+
+@keyframes welcome{
+  0%{
+    transform: rotate(0deg);
+    
+
+  }
+
+  25%{
+    
+    background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 50%;
+
+    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+
+   }
+
+50%{
+    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
+  ); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 50%;
+
+  box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
+  background-color: rgb(37, 12, 12);
+}
+
+75%{
+  background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200%;
+  background-position: 50%;
+
+  box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+
+}
+
+100%{
+  transform: rotate(0deg);
+
+}
+
+
+}
+
+
+
   
   @keyframes background-contenedora {
     0%{
       transform: scale(1);
   
     }
+
   25%{
     
       background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg); 
