@@ -185,9 +185,9 @@
   
   .contenedor-descrip-pag{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 5rem;
+    justify-content: space-between;
+    margin: 3rem;
+    flex-direction: row-reverse;
   }
 
 
@@ -197,8 +197,8 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border-radius: 50%;
-    height: 35vw;
-    width: 35vw;
+    height: 30vw;
+    width: 30vw;
     max-width: 500px;
     max-height: 500px;
     background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
@@ -210,7 +210,6 @@
     animation: nav-paginas 30s ease-in-out infinite;
     position: relative;
     bottom: 4rem;
-    /* margin-bottom: 3rem; */
     left: 4rem;
     border: 1px solid;
 
@@ -238,23 +237,23 @@
   .nav-paginas > a {
     padding-top: 5px;
     padding-bottom: 20px;
-    padding-left: 1px;
-    padding-right: 1.1px;
+    padding-left: 2px;
+    padding-right: 2px;
     border-radius: 55px 2px 55px 2px;
     text-decoration: none;
+    text-align: center;
     color: rgba(250, 244, 244, 0.911);
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column-reverse;
     font-size: 1.3rem;
     font-weight: bold;
-    width: 25%;
-    height: 25%;
+    width: 28%;
+    height: 28%;
     position: absolute;
     border: 1px solid;
     transform-origin: 50% 0%;
     animation: nav-paginas-a 30s ease-in-out infinite;
-    /* text-shadow: 4px -2px 0px rgba(0,0,0,0.66); */
     background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -282,28 +281,34 @@
   
   .nav-paginas > a:nth-of-type(1) {
     right: -8.5%;
-    top: 50%;
+    top: 40%;
   }
+
   .nav-paginas > a:nth-of-type(2) {
-    right: 17%;
-    top: 93.5%;
+    right: 8%;
+    top: 87%;
   }
+
   .nav-paginas > a:nth-of-type(3) {
-    right: 67%;
-    top: 93.5%;
+    right: 57%;
+    top: 87%;
   }
+
   .nav-paginas > a:nth-of-type(4) {
     left: -8.5%;
-    top: 50%;
+    top: 40%;
   }
+
   .nav-paginas > a:nth-of-type(5) {
-    left: 17%;
-    top: 7%;
+    left: 40%;
+    top: 4%;
   }
-  .nav-paginas > a:nth-of-type(6) {
+
+
+  /* .nav-paginas > a:nth-of-type(6) {
     right: 17%;
     top: 7%;
-  }
+  } */
   
 
 @keyframes welcome{
