@@ -17,7 +17,7 @@
     background-size: 200%;
     background-position: 50%;
     transform-origin: 50% 0%;
-    animation:background-contenedora 15s ease-in-out infinite;
+    animation:background-contenedora 30s ease-in-out infinite;
     width: 100%;
     height: auto;
     display: flex;
@@ -27,8 +27,8 @@
 
 .sub-contenedora{
   display: flex;
-  
   flex-direction: column-reverse;
+  margin: 2rem;
 }
 
 
@@ -36,15 +36,19 @@
   
   .nav-redes > a > i {
     color: rgba(241, 28, 28, 0.77);
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
   
   }
   
   
+.hover-nav{
+  margin: 1rem;
+}
+
   .hover-nav:hover{
     transition: 3s;
-    transform: scale(1.5, 1.5);
+    transform: scale(1.4, 1.4);
    
   
   }
@@ -74,13 +78,14 @@
     margin: 20px 30px;
     border: 1px solid #131111;
     color: rgba(250, 244, 244, 0.911);
-    /* width: 50%; */
+    width: 40%;
+    height: 50%;
     font-size: 1.3em;
     font-weight: bold;
     text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
     /* margin: 3px auto; */
     position: relative;
-    bottom: 50px;
+    /* bottom: 50px; */
     padding: 3rem;
     transform-origin: 50% 0%;
     animation: hover-in-circles 30s ease-in-out infinite;
@@ -102,14 +107,15 @@
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     transform-origin: 50% 0%;
-    animation: hover-in-circles 10s ease-in-out infinite;
-    animation: welcome 40s ease-in-out infinite;
+    animation: hover-in-circles 30s ease-in-out infinite;
+    animation: welcome 30s ease-in-out infinite;
     position: relative;
     top: 40px;
-    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
+    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg
     );
     background-repeat: no-repeat;
     background-position: 50%;
+    background-size: 100% auto;
   
   }
   
@@ -124,8 +130,7 @@
     padding: 20px;
     position: relative;
     bottom: 30px;
-    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
-    );
+    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -135,21 +140,21 @@
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     transform-origin: 50% 0%;
-    animation: hover-in-circles 10s ease-in-out infinite;
-    animation: welcome 40s ease-in-out infinite;
+    animation: hover-in-circles 30s ease-in-out infinite;
+    animation: welcome 30s ease-in-out infinite;
     position: relative;
-    top: 15px;    
+    /* top:1px;     */
   }
-
 
   
   .nav-redes {
-    margin: 50px auto;
+   
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 1em;
+   
   }
   
   
@@ -162,7 +167,7 @@
     -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
     transform-origin: 50% 0%;
-    animation: hover-in-circles 10s ease-in-out infinite;
+    animation: hover-in-circles 30s ease-in-out infinite;
    
   }
   
@@ -178,7 +183,14 @@
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
   }
   
-  
+  .contenedor-descrip-pag{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5rem;
+  }
+
+
   
   .nav-paginas {
     display: flex;
@@ -197,14 +209,19 @@
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     animation: nav-paginas 30s ease-in-out infinite;
     position: relative;
-margin-top: 3px;
-margin-bottom: 8rem;
+    bottom: 4rem;
+    /* margin-bottom: 3rem; */
+    left: 4rem;
+    border: 1px solid;
+
   }
   
+
+
   hr {
     height: 10px;
     width: 60%;
-    margin: 100px auto;
+    margin: 150px auto;
     background-color: rgb(85, 36, 36);
     border-color: rgb(199, 146, 49);
     border-radius: 100px 0px 100px 0px;
@@ -219,23 +236,25 @@ margin-bottom: 8rem;
   
   
   .nav-paginas > a {
-  
-    padding: 20px;
-    border-radius: 65px 1px 65px 1px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1.1px;
+    border-radius: 55px 2px 55px 2px;
     text-decoration: none;
     color: rgba(250, 244, 244, 0.911);
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column-reverse;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     width: 25%;
     height: 25%;
     position: absolute;
-    border: 2px solid;
+    border: 1px solid;
     transform-origin: 50% 0%;
     animation: nav-paginas-a 30s ease-in-out infinite;
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
+    /* text-shadow: 4px -2px 0px rgba(0,0,0,0.66); */
     background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -309,25 +328,23 @@ margin-bottom: 8rem;
    }
 
 50%{
-    background-image: url(  https://i.ibb.co/LSvwJ87/Whats-App-Image-2022-08-23-at-9-58-14-AM.jpg
-  ); 
+    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg); 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
   background-position: 50%;
-
-  box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
+ box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
   -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
   background-color: rgb(37, 12, 12);
 }
 
 75%{
-  background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
+  /* background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 200%;
-  background-position: 50%;
+  background-position: 50%; */
 
   box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
   -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
@@ -405,9 +422,9 @@ margin-bottom: 8rem;
       box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
       -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
       -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
-      background-color: rgb(37, 12, 12);
-    /* opacity: 0.9; */
-    color: rgba(124, 110, 110, 0.911);
+      background-color: rgb(58, 21, 21);
+    opacity: 0.9;
+    color: rgba(185, 177, 177, 0.911);
     }
   
     75% {
@@ -508,7 +525,7 @@ margin-bottom: 8rem;
 
 .footer-copyright{
     margin-top: 40px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
     text-align: center;
     position: relative;
@@ -519,7 +536,6 @@ margin-bottom: 8rem;
 
 .hover-contac{
     align-content: center;
-    margin:15px;
     margin-top: 0;
     margin-bottom: 0;
 }
