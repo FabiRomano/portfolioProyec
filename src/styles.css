@@ -1,198 +1,268 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:  'Kalam', cursiva;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kalam", cursiva;
+  /* background-image: linear-gradient(
+    to bottom,
+    #3b3737,
+    #e6800c,
+    #e6800c,
+    #ad631e,
+    #db890e,
+    #eb984b,
+    #e6800c,
+    #df5d06,
+    #ad631e,
+    #ad631e,
+    #eb984b,
+    #e6800c,
+    #3b3737
+  ); */
+  /* background-color: #eb984b; */
+
+  
   
 }
 
 /************home************/
 
 .contenedora {
-    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 200%;
-    background-position: 50%;
-    transform-origin: 50% 0%;
-    animation:background-contenedora 30s ease-in-out infinite;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200%;
+  background-position: 50%;
+  transform-origin: 50% 0%;
+  animation: background-contenedora 30s ease-in-out infinite;
+  /* width: 100%; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.sub-contenedora{
+.sub-contenedora {
   display: flex;
   flex-direction: column-reverse;
   margin: 2rem;
 }
 
+.nav-redes > a > i {
+  color: rgba(241, 28, 28, 0.77);
+  font-size: 1.5rem;
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+}
 
-   
-  
-  .nav-redes > a > i {
-    color: rgba(241, 28, 28, 0.77);
-    font-size: 1.5rem;
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-  
-  }
-  
-  
-.hover-nav{
+.hover-nav {
   margin: 1rem;
 }
 
-  .hover-nav:hover{
-    transition: 3s;
-    transform: scale(1.4, 1.4);
-   
-  
-  }
-  
-  .titulo {
-    margin: 80px 20px;
-    padding: 5px;
-    font-size: 2.5em;
-    position: relative;
-    /* bottom: 20px; */
-    padding: 20px;
-    border-radius: 20px;
-    transform-origin: 50% 0%;
-    animation: hover-in-circles 30s ease-in-out infinite;
-    box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-    color: rgba(250, 244, 244, 0.911);
-    border-radius: 65px 1px 65px 1px;
+.hover-nav:hover {
+  transition: 3s;
+  transform: scale(1.4, 1.4);
+}
 
-  
-  }
-  
-  
-  div .description {
-    margin: 20px 30px;
-    border: 1px solid #131111;
-    color: rgba(250, 244, 244, 0.911);
-    width: 40%;
-    height: 50%;
-    font-size: 1.3em;
-    font-weight: bold;
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-    /* margin: 3px auto; */
-    position: relative;
-    /* bottom: 50px; */
-    padding: 3rem;
-    transform-origin: 50% 0%;
-    animation: hover-in-circles 30s ease-in-out infinite;
-    border-radius: 65px 1px 65px 1px;
-    box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-  }
+.titulo {
+  /* margin: 80px 10px; */
+  /* padding: 3px; */
+  font-size: 2.5em;
+  position: relative;
+  text-align: center;
+  /* bottom: 20px; */
+  padding: 20px;
+  border-radius: 20px;
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+  color: rgba(250, 244, 244, 0.911);
+  border-radius: 65px 1px 65px 1px;
+}
+
+.subTitulo {
+  padding: 3px;
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+  margin: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+  color: rgba(250, 244, 244, 0.911);
+  border-radius: 65px 1px 65px 1px;
+}
+
+div .description {
+  /* margin: 20px 30px; */
+  border: 1px solid #131111;
+  color: rgba(250, 244, 244, 0.911);
+  /* width: 40%;
+  height: 50%; */
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+  /* margin: 3px auto; */
+  /* position: relative; */
+  /* bottom: 50px; */
+  padding: 3rem;
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  border-radius: 65px 1px 65px 1px;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+}
 
 
-  
-  .circulo-img {
-    margin: 30px auto;
-    border: 1px solid #0f0f0f;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    transform-origin: 50% 0%;
-    animation: hover-in-circles 30s ease-in-out infinite;
-    animation: welcome 30s ease-in-out infinite;
-    position: relative;
-    top: 40px;
-    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg
-    );
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100% auto;
-  
-  }
-  
+
+.descripEducation{
+  text-shadow: none;
+  width:70rem;
+  text-align: center;
+
+}
+
+.circulo-img {
+  margin: 30px auto;
+  margin-top: 1px                          ;
+  border: 1px solid #0f0f0f;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  animation: welcome 30s ease-in-out infinite;
+  position: relative;
+  /* top: 40px; */
+  background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% auto;
+}
+
+.div-img-perfil {
+  margin: 50px auto;
+  border: 1px solid #0f0f0f;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+  bottom: 30px;
+  background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  opacity: 0.8;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  animation: welcome 30s ease-in-out infinite;
+  position: relative;
+  /* top:1px;     */
+}
+
+.nav-redes {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1em;
+}
+
+.background-color {
+  padding: 20px;
+  padding-top: 5px;
+  border: 1px solid #f50d0d;
+  border-radius: 50%;
+  box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+}
+
+.background-color:hover {
+  transition: 3s;
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 150%;
+  border: 1px solid #0f0f0f;
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+}
+
+.contenedor-descrip-pag {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  flex-direction: row-reverse;
+}
+
+.nav-paginas {
+  margin: 1rem;
+}
+
+.nav-paginas > a {
+  display: flex;
+  margin: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 50px 1px 50px 1px;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(250, 244, 244, 0.911);
+  padding: 1.1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
+  animation: hover-in-circles 30s ease-in-out infinite;
+  background-image: none;
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+
+}
+
+.nav-paginas > a:hover {
+  transition: 3s;
+  transform: scale(1);
+  /* color: #ffffff !important; */
+  /* border: 0.5px solid; */
+  transform-origin: 50% 0%;
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 180%;
  
-  
-  .div-img-perfil {
-    margin: 50px auto;
-    border: 1px solid #0f0f0f;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    padding: 20px;
-    position: relative;
-    bottom: 30px;
-    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-    opacity: 0.8;
-    box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    transform-origin: 50% 0%;
-    animation: hover-in-circles 30s ease-in-out infinite;
-    animation: welcome 30s ease-in-out infinite;
-    position: relative;
-    /* top:1px;     */
-  }
 
-  
-  .nav-redes {
-   
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 1em;
-   
-  }
-  
-  
-  .background-color {
-    padding: 20px;
-    padding-top: 5px;
-    border: 1px solid #f50d0d;
-    border-radius: 50%;
-    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-    transform-origin: 50% 0%;
-    animation: hover-in-circles 30s ease-in-out infinite;
-   
-  }
-  
-  .background-color:hover{
-    transition: 3s;
-     background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 150%;
-    border: 1px solid #0f0f0f;
-   box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-  }
-  
-  .contenedor-descrip-pag{
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem;
-    flex-direction: row-reverse;
-  }
+  box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
+  -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
+  -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
+}
 
-
-  
-  .nav-paginas {
+p, h1, h2, a{
+  color: #ffffff !important;
+}
+/* .nav-paginas {
     display: flex;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -227,7 +297,6 @@
     box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
-    /* margin-top:10%; */
     
   }
   
@@ -292,255 +361,265 @@
   .nav-paginas > a:nth-of-type(3) {
     right: 57%;
     top: 87%;
-  }
+  } */
 
-  .nav-paginas > a:nth-of-type(4) {
-    left: -8.5%;
-    top: 40%;
-  }
+/* .nav-paginas > a:nth-of-type(4) {
+  left: -8.5%;
+  top: 40%;
+}
 
-  .nav-paginas > a:nth-of-type(5) {
-    left: 40%;
-    top: 4%;
-  }
+.nav-paginas > a:nth-of-type(5) {
+  left: 40%;
+  top: 4%;
+} */
 
-
-  /* .nav-paginas > a:nth-of-type(6) {
+/* .nav-paginas > a:nth-of-type(6) {
     right: 17%;
     top: 7%;
   } */
-  
 
-@keyframes welcome{
-  0%{
+@keyframes welcome {
+  0% {
     transform: rotate(0deg);
-    
-
   }
 
-  25%{
-    
-    background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
+  25% {
+    background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 200%;
     background-position: 50%;
 
     box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-    -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(248, 98, 12, 0.77);
     -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+  }
 
-   }
+  50% {
+    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 50%;
+    box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
+    background-color: rgb(37, 12, 12);
+  }
 
-50%{
-    background-image: url(https://i.ibb.co/5L8WxxR/Whats-App-Image-2022-08-23-at-9-58-14-AM-removebgfondorojito-preview-removebg-preview.jpg); 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-position: 50%;
- box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
-  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
-  -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
-  background-color: rgb(37, 12, 12);
-}
-
-75%{
-  /* background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
+  75% {
+    /* background-image: url(https://i.ibb.co/nm0MkhG/nibiru.png ); 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 200%;
   background-position: 50%; */
 
-  box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-  -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-  -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+    /* box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(248, 98, 12, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77); */
+  }
 
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-100%{
-  transform: rotate(0deg);
+@keyframes background-contenedora {
+  0% {
+    transform: scale(1);
+  }
 
+  25% {
+    background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 50%;
+  }
+
+  50% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 50%;
+  }
+
+  75% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 50%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-
-}
-
-
-
-  
-  @keyframes background-contenedora {
-    0%{
-      transform: scale(1);
-  
-    }
-
-  25%{
-    
-      background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg); 
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 200%;
-      background-position: 50%;
-     }
-  
-  
-  
-  50%{
-   background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg); 
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 200%;
-   background-position: 50%;
+@keyframes hover-in-circles {
+  0% {
+    transform: scale(1);
   }
-  
-  75%{
-     background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg); 
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 200%;
-   background-position: 50%;
+  25% {
+    color: rgb(218, 86, 25);
+    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(248, 98, 12, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
   }
-  
-  
-    100% {
-      transform: rotate(360deg);
-     
-    }
-    
-  }
-  
-  
-  @keyframes hover-in-circles{
-    0%{
-      transform: scale(1);
-      
-    }
-    25% {
-      color: rgb(218, 86, 25);
-      box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-      -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-      -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-    }
-  
-  
-    50% {
-      box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
-      -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
-      -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
-      background-color: rgb(58, 21, 21);
+
+  50% {
+    box-shadow: -1px -4px 30px 17px rgba(36, 14, 14, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 11, 11, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(44, 25, 25, 0.77);
+    /* background-color: rgb(58, 21, 21); */
     opacity: 0.9;
     color: rgba(185, 177, 177, 0.911);
-    }
-  
-    75% {
-      
-      box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-      -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-      -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-      color: #f50d0d;
-    }
-  
-    100% {
-      transform: rotate(360deg);
-     
-    }
+  }
+
+  75% {
+    /* box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(180, 113, 68, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77); */
+    color: #f50d0d;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nav-paginas {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(219, 185, 185, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
+  }
+
+  50% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(219, 185, 185, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
   
   }
-  
-  @keyframes nav-paginas {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-      -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-      -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-    }
-  
-    50% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-    
-    }
-  
-    75% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
-      -webkit-box-shadow: -1px -4px 30px 17px rgba(241, 28, 28, 0.77);
-      -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+  75% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    box-shadow: -1px -4px 30px 17px rgba(226, 80, 12, 0.77);
+    -webkit-box-shadow: -1px -4px 30px 17px rgba(155, 143, 143, 0.77);
+    -moz-box-shadow: -1px -4px 30px 17px rgba(194, 98, 20, 0.77);
   }
-  
-  @keyframes nav-paginas-a {
-    0% {
-      transform: rotate(0deg);
-    }
 
-    25% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      color: rgb(218, 86, 25);
-    }
-
-    50% {
-        background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      color: rgba(124, 110, 110, 0.911);
-        
-  box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
-  -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
-  -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
-
-    }
-
-    75% {
-      background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
-      color: #f50d0d;
-    }
-
-    100% {
-      transform: rotate(-360deg);
-    }
+  100% {
+    transform: rotate(360deg);
   }
-  
+}
 
+@keyframes nav-paginas-a {
+  0% {
+    transform: rotate(0deg);
+  }
 
-  
+  25% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    color: rgb(218, 86, 25);
+  }
+
+  50% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    color: rgba(124, 110, 110, 0.911);
+
+    box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
+    -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
+    -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
+  }
+
+  75% {
+    background-image: url(https://i.ibb.co/r78PSf6/rs95-W3w9-Xij-Lu-PA5-Ll4uz-transformed.jpg);
+    color: #f50d0d;
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 
 /**********************footer******************************/
 
+.footer-cont {
+  display: flex;
 
-.footer-cont{
-    display: flex;
-   
-    padding: 4rem;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(
-        to bottom, #3b3737,#e6800c, #e6800c, #ad631e, 
-        #db890e, #eb984b, #e6800c, #df5d06, #ad631e,
-     #ad631e, #eb984b, #e6800c, #3b3737);
- 
-
-   
+  padding: 4rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #3b3737,
+    #e6800c,
+    #e6800c,
+    #ad631e,
+    #db890e,
+    #eb984b,
+    #e6800c,
+    #df5d06,
+    #ad631e,
+    #ad631e,
+    #eb984b,
+    #e6800c,
+    #3b3737
+  );
 }
 
-.footer-copyright{
-    margin-top: 40px;
-    font-size: 1.1rem;
-    text-shadow: 4px -2px 0px rgba(0,0,0,0.66);
-    text-align: center;
-    position: relative;
-    color: aliceblue;
+.footer-copyright {
+  margin-top: 40px;
+  font-size: 1.1rem;
+  text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+  text-align: center;
+  position: relative;
+  color: aliceblue;
+}
+
+.hover-contac {
+  align-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
+/*component proyectos*/
 
-.hover-contac{
-    align-content: center;
-    margin-top: 0;
-    margin-bottom: 0;
+.card{
+  background-image: linear-gradient(
+    to bottom,
+    #3b3737,
+    #e6800c,
+    #e6800c,
+    #ad631e,
+    #db890e,
+    #eb984b,
+    #e6800c,
+    #df5d06,
+    #ad631e,
+    #ad631e,
+    #eb984b,
+    #e6800c,
+    #3b3737
+  );
+  margin: 5px;
+  border-radius: 50px 1px 50px 1px !important;
+
+}
+
+.positionCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
 }
