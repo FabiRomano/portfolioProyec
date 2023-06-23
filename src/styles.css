@@ -623,3 +623,80 @@ p, h1, h2, a{
   justify-content: space-evenly;
 
 }
+
+/*******component circles Skilld*********************/
+
+.contCirculos{
+width: 15rem;
+height: 15rem;
+background-image: linear-gradient(
+  to bottom,
+  #3b3737,
+  #e6800c,
+  #e6800c,
+  #ad631e,
+  #db890e,
+  #eb984b,
+  #e6800c,
+  #df5d06,
+  #ad631e,
+  #ad631e,
+  #eb984b,
+  #e6800c,
+  #3b3737
+);
+margin: 5px;
+border-radius: 50px 1px 50px 1px !important;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+transform-origin: 50% 0%;
+animation: hover-in-circles 30s ease-in-out infinite;
+box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+-webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+-moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+text-shadow: 4px -2px 0px rgba(0, 0, 0, 0.66);
+
+}
+
+.circles{
+  width: 10rem;
+  height: 10rem;
+  /* border: solid 1px #fff; */
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transform-origin: 50% 0%;
+  animation: hover-in-circles 30s ease-in-out infinite;
+  /* border-radius: 65px 1px 65px 1px; */
+  box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -webkit-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+  -moz-box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
+
+
+}
+
+.circles:hover{
+  transition: 4s;
+  transform: scale(1);
+  color: #ffffff !important;
+  /* border: 0.5px solid; */
+  transform-origin: 50% 0%;
+  background-image: url(https://i.ibb.co/1fLnYXc/nibiru.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 180%;
+  box-shadow: 3px 8px 45px 1px rgba(231, 230, 230, 0.75);
+  -webkit-box-shadow: 3px 8px 45px 1px rgba(226, 221, 221, 0.75);
+  -moz-box-shadow: 3px 8px 45px 1px rgba(245, 243, 243, 0.884);
+}
+
+.cajaCentralCirculos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
