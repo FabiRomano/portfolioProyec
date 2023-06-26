@@ -50,6 +50,12 @@
   margin: 2rem;
 }
 
+.editCentrado{
+  position: relative;
+  left: 48%;
+
+}
+
 .nav-redes > a > i {
   color: rgba(241, 28, 28, 0.77);
   font-size: 1.5rem;
@@ -628,7 +634,7 @@ p, h1, h2, a{
 
 .contCirculos{
 width: 15rem;
-height: 15rem;
+height: 18rem;
 background-image: linear-gradient(
   to bottom,
   #3b3737,
@@ -650,7 +656,7 @@ border-radius: 50px 1px 50px 1px !important;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
+flex-direction: column;
 transform-origin: 50% 0%;
 animation: hover-in-circles 30s ease-in-out infinite;
 box-shadow: -1px -4px 30px 17px rgba(20, 9, 9, 0.77);
